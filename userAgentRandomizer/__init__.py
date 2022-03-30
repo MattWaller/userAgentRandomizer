@@ -3,7 +3,7 @@ from random import randint
 import os
 class userAgents(object):
 	def __init__(self):
-		files_ = glob('userAgents/assets/*.txt')
+		files_ = glob('userAgentRandomizer/assets/*.txt')
 		self.uas = []
 		for file_ in files_:
 			with open(file_,'r') as f:

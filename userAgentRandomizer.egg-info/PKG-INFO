@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: userAgentRandomizer
+Version: 0.1.4
+Summary: Automatically Generate User agents
+Home-page: https://github.com/MattWaller/userAgentRandomizer
+Author: Matt Waller
+Author-email: mattghwaller@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MattWaller/userAgentRandomizer/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# userAgentRandomizer
+
+<h1>Automatically Generate User agents</h1>
+
+<strong>Installation</strong>
+<p><code>
+	pip install userAgentRandomizer
+	</code></p>
+<strong>To Use: </strong>
+
+
+<p><code>
+	from userAgentRandomizer import userAgents 
+</code></p>
+<p><code>
+	ua = userAgents()
+</code></p>
+<p><code>
+	random_useragent = ua.random()
+</code></p>
+<p><code>
+	print(random_useragent)
+</code></p>
+<p><code>
+	Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:5.0) Gecko/20110619 Firefox/5.0
+</code></p>
+<p><code>
+	print(ua.count())
+</code></p>
+<p><code>
+	4513
+</code></p>
+
