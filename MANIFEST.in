@@ -1,0 +1,2 @@
+recursive-include userAgents/assets *.txt
+recursive-include userAgents *.py
