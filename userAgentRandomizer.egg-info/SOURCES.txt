@@ -8,3 +8,8 @@ userAgentRandomizer.egg-info/PKG-INFO
 userAgentRandomizer.egg-info/SOURCES.txt
 userAgentRandomizer.egg-info/dependency_links.txt
 userAgentRandomizer.egg-info/top_level.txt
+userAgentRandomizer/assets/Chrome.txt
+userAgentRandomizer/assets/Edge.txt
+userAgentRandomizer/assets/Firefox.txt
+userAgentRandomizer/assets/Opera.txt
+userAgentRandomizer/assets/Safari.txt
