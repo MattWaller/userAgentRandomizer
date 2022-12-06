@@ -39,6 +39,9 @@ class userAgents(object):
 	def count(self):
 		return len(self.uas)
 
+	def useragents(self):
+		return self.uas
+
 if __name__ == "__main__":
 	ua = userAgents()
 	print(ua.random('Firefox'))
